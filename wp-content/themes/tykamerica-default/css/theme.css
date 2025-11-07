@@ -33281,4 +33281,56 @@ h2.map-heading {
             flex: auto;
   }
 }
+
+.home .value-prop-module {
+  padding-bottom: 0;
+  padding-top: 4rem;
+}
+.home .value-prop-module .vpm-col {
+  max-width: 31.25rem;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .home .value-prop-module .vpm-col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33%;
+            flex: 0 0 33%;
+    max-width: 33%;
+  }
+}
+.home .value-prop-module .vpm-item {
+  background-color: #DC342C;
+}
+.home .value-prop-module .vpm-image-wrap {
+  max-width: 5rem;
+  height: auto;
+  background-color: #DC342C;
+}
+.home .value-prop-module .vpm-heading {
+  font-size: 1.625rem;
+  position: relative;
+}
+.home .value-prop-module .vpm-heading:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  bottom: -20px;
+  left: 50%;
+  right: 50%;
+  background-color: #fff;
+}
+.home .value-prop-module .vpm-row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.home .value-prop-module .vpm-description {
+  padding-top: 1.25rem;
+}
+
+.map-content-wrap {
+  width: 22.1875rem;
+  padding: 1.25rem 2rem;
+}
 /*# sourceMappingURL=theme.css.map */
