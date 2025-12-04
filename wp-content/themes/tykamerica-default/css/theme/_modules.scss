@@ -10430,6 +10430,7 @@ left: -8.5%;
 
 .home .map-module{
 	background-color: #EEEEEE;
+	padding-bottom: rem(50);
 	>.container{
 		padding-top: rem(80);
 	}
@@ -10810,4 +10811,10 @@ text-decoration: underline;
     width: rem(355); 
 	padding: 1.25rem 2rem;
 
+}
+#md-5 .mci-fax,
+#md-7 .mci-fax,
+#md-9,
+#Group_11748{
+	display:none;
 }
