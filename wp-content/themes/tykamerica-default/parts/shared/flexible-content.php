@@ -534,7 +534,7 @@
 					<div class="cwc-container">
 						<div class="container">
 							<div class="row">
-								<div class="carousel-content col-md-12 <?php echo $animation; ?>">
+								<div class="carousel-content col-md-12">
 									<?php if (get_sub_field('cwc_title')): ?>
 							    		<h1 class="cwc-title wow fadeIn" data-wow-duration="1s"><?php echo get_sub_field('cwc_title'); ?></h1>
 							    	<?php endif ?>
