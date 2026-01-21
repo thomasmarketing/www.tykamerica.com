@@ -2202,7 +2202,7 @@
 		    				<?php 
 							$image = get_sub_field('vpm_cover_image');
 							if( !empty( $image ) ): ?>
-							    <figure class="vpm-image-wrap"><img class="vwdm-img" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['alt']); ?>" /></figure>
+							    <figure class="vpm-image-wrap"><img class="vwdm-img" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['alt']); ?>" width="<?php echo $image['width'] ?>" height="<?php echo $image['height']; ?>" /></figure>
 							<?php endif; ?>
 
 							<?php if (get_sub_field('vpm_heading')): ?>

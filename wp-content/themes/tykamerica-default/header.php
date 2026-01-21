@@ -37,6 +37,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="preload" as="image" fetchpriority="high" href="/wp-content/uploads/hero-banner.webp">
 	<?php wp_head(); ?>
 
 	<?php if(get_field('before_the_head')):?>

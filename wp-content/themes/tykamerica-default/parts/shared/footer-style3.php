@@ -29,7 +29,7 @@
         <?php $logo = get_field('global_company_logo','option');
         if( !empty($logo) ): ?>
             <a href="<?php bloginfo('url'); ?>" class="sf-logo">
-                <img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" title="<?php echo $logo['alt']; ?>">
+                <img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" title="<?php echo $logo['alt']; ?>" width="<?php echo $logo['width'] ?>" height="<?php echo $logo['height']; ?>">
             </a>
         <?php endif;?>
          <?php if(get_field('global_address','option')):?>
